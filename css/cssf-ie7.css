@@ -1,0 +1,48 @@
+.menu {
+	overflow: hidden;
+	height: 47px;
+}
+
+.butt {
+	background-image: url(../img/r_button.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+	float: left;
+	height: 37px;
+}
+
+.menu ul li {
+	display: block;
+	float: left;
+	background: none;
+	margin: 0 -4px 10px 0;
+}
+
+.menu ul li:hover {
+	background: none;
+}
+
+.menu ul li  a {
+	text-decoration: none;
+	color: #fff;
+	font: 14px Tahoma, Arial, sans-serif;
+	display: block;
+	height: 37px;
+	padding: 0 10px 0 0;
+	margin-right: 10px;
+}
+
+.butt span{
+	background-image: url(../img/l_button.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	display: block;
+	padding: 12px 0 8px 10px;
+}
+
+.butt span:hover {
+	padding: 0px 0 19px 10px;
+	background-image: url(../img/l_button.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+}
